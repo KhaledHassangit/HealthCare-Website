@@ -1,0 +1,265 @@
+.contact-wraper {
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 10px 60px 0 rgba(31,34,120,.1);
+    margin-top: -150px;
+    padding: 70px 50px 40px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+form {
+    background-color: #fff;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+
+form input, form select ,form textarea{
+    width: 100%;
+    height: 55px;
+    background-color: #fff;
+    border: 1px solid rgba(86,90,207,.3);
+    transition: 0.3s ease all;
+    border-radius: 9px;
+    margin: 20px 0;
+    padding: 15px;
+    font-size: 17px;
+    font-weight: 500 ;
+    outline: none;
+    caret-color: #565acf;
+
+}
+
+form input:hover,form select:hover, form textarea:hover{
+    border-color: #565acf;
+}
+
+form input:focus,form textarea:focus{
+    outline: none;
+}
+
+form textarea{
+    height: 110px;
+
+}
+
+form button{
+    width: 80%;
+    height: 60px;
+    color: #fff;
+    background-color: var(--orange-color) !important;
+    border: 1px solid var(--orange-color) !important;
+    border-radius: 12px !important;
+    height: 60px !important;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    font-weight: 500;
+    transition: 0.3s ease all;
+    font-family: "Tajawal";
+    font-size: 19px;
+
+}
+
+form button:hover{
+    opacity: 0.8;
+    background-color: #f49762;
+    border: 2px solid #f49762;
+    color: #fff;
+    box-shadow: 0 5px 20px 0 rgba(241,119,50,.3)!important;
+}
+
+
+
+.side-info{
+    background-image: url("../../IMG/pic2.jpg");
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    border-radius: 9px;
+    overflow: hidden;
+    margin-top: 20px;
+
+    
+}
+
+.side-info .over-lay{
+    background: #565acf;
+    opacity: .9;
+    border-radius: 9px;
+    height: 100%;
+    padding: 15px;
+    z-index: -1;
+}
+
+.over-lay h3{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 20px 30px;
+}
+
+
+.over-lay li{
+    font-size: 18px;
+    color: white;
+    margin: 20px 30px;
+    font-weight: bold;
+
+
+}
+
+.over-lay svg{
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+.over-lay hr{
+    color: #fff;
+    width: 300px;
+    margin: 20px 30px;
+    font-weight: bold;
+
+}
+
+.over-lay p{
+    font-size: 18px;
+    color: white;
+    margin: 20px 30px;
+    font-weight: bold;
+
+}
+.over-lay .email{
+    font-size: 18px;
+    color: white;
+    margin: 20px 30px;
+    font-weight: bold;
+
+}
+
+.over-lay .social-icons{
+    display: flex;
+
+}
+.over-lay .social-icons li{
+    margin: 0;
+    padding: 5px ;
+    background-color: #fff;
+    color:var(--main-color);
+    margin-right: 8px;
+    border-radius: 8px;
+    box-shadow: 0 10px 40px 0 rgba(31,34,120,.1);
+    display: block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    transition: all .5s;
+    width: 40px;
+    cursor: pointer;
+    position: relative;
+
+}
+.over-lay .social-icons li:hover{
+    background-color: var(--orange-color);
+    color: #fff;
+}
+.over-lay .social-icons  svg{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+
+
+
+.info-box{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 5px 30px 0 rgba(31,34,120,.08);
+    overflow: hidden;
+    padding: 45px 35px 35px;
+    z-index: 1;
+    margin: 50px 0;
+}
+
+.info-box .img img{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 50px;
+    max-width: 100%;
+    vertical-align: middle;
+    width: auto;
+    
+}
+.info-box .img img:hover{
+    animation: moving 0.05s alternate infinite;
+}
+.info-box  .text h5{
+    color: var(--main-color);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+.info-box  .text p{
+    color: #444;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.first{
+    border: 1px solid #e2c4ff;
+
+}
+
+.second{
+    border: 1px solid #ffbdbc;
+
+}
+
+.third{
+    border: 1px solid #a4fcc4;
+}
+.info-box .img {
+    position: relative;
+}
+
+.info-box .img::before{
+    border-radius: 50%;
+    content: "";
+    height: 55px;
+    position: absolute;
+    right: 270px;
+    top: -10px;
+    width: 55px;
+    opacity: 0.5;
+}
+
+.first .img::before{
+    background-color: #e2c4ff;
+}
+.second .img::before{
+    background-color: #ffbdbc;
+}
+.third .img::before{
+    background-color: #a4fcc4;
+}
+
+
+@keyframes moving{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(-3px);
+    }
+    100%{
+        transform: translateX(3px);
+    } 
+}

@@ -1,0 +1,89 @@
+.news{
+    padding-top: 20px;padding-bottom: 20px;
+    margin: 30px auto;
+}
+
+
+.news .heading h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--orange-color);
+    margin-bottom: 10px;
+}
+.news .heading  h2{
+    color: #1f2278;
+    font-family: "Tajawal";
+    line-height: 1.2;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.news .box{
+    background-color: #fff;
+    border: 2px solid rgba(86,90,207,.2);
+    border-radius: 10px;
+    padding: 20px;
+    transition: all .5s;
+    margin-top: 30px;
+}
+.news .box:hover{
+    border: 2px solid #fff;
+    box-shadow: 0 10px 30px 0 rgba(31,34,120,.1);
+}
+
+
+.news .box img{
+    border-radius:8px ;
+    margin-bottom: 15px;
+}
+.news .box ul{
+    align-items: center;
+    display: flex;
+    margin-bottom: 15px;
+
+}
+
+.news .box ul li a {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news .box ul li {
+    color: #f17732;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.5;
+    position: relative;
+    margin-right: 40px;
+    font-weight: 500;
+}
+
+.news .box h5{
+    color: #1f2278;
+    font-weight: 500;
+    line-height: 1.5;
+    text-transform: capitalize;
+    
+}
+.news .box h5:hover{
+    color: #565acf;
+}
+
+.news  button{
+    background-color: #FFF;
+    border: 2px solid #565acf;
+    color:#565acf;
+    padding: 12px 27px 12px 20px;
+    border-radius: 9px;
+    line-height: .2;text-align: center;
+    font-family: "Tajawal";
+    transition: .5s ease all;
+    display: block !important;
+    margin-top: 20px;
+
+}
+.news  button:hover{
+    background-color: #565acf;
+    color: white;
+}

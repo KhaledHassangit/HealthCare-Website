@@ -1,0 +1,187 @@
+.book
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url("../../IMG//bookbg.png");
+    background-position: 20px 140px;
+    background-color: #f5f5fc;
+    border-radius: 40px;
+    position: relative;
+    z-index:1
+}
+
+.selectform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    box-sizing: border-box;
+    width:500px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    position: relative;
+    border-radius: 30px !important;
+    border-color: transparent;
+    z-index: 1;
+
+}
+.form-control{
+    border-radius: 30px !important;
+
+}
+.form-control::after{
+    border: 2px solid #565acf;
+    border-radius: 40px;
+    content: "";
+    height: 100%;
+    left: -20px;
+    position: absolute;
+    top: -20px;
+    width: 100%;
+    z-index: -1;
+}
+.form-control h2{
+    color: #565acf;
+    font-weight: bold;
+}
+form input, form select{
+    width: 100%;
+    height: 55px;
+    background-color: #fff;
+    border: 1px solid rgba(86,90,207,.3);
+    transition: 0.3s ease all;
+    border-radius: 9px;
+    margin: 20px 0;
+    padding: 15px;
+    font-size: 17px;
+    font-weight: 500 ;
+    outline: none;
+    caret-color: #565acf;
+
+}
+
+form input:hover{
+    border-color: #565acf;
+}
+
+form input:focus{
+    outline: none;
+}
+
+img{
+    border-style: none;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle
+}
+.appointment-thumb{
+    min-width: 350px;
+    max-width: 500px;
+    height: auto;
+    position: relative;
+}       
+
+
+.appointment-thumb .img-groub .women{
+    max-width: 30%;
+    position: absolute;
+    top: 11%;
+    animation: walking 1s alternate infinite ;
+    min-width: 47%;
+}
+
+@keyframes walking {
+    0%{
+        transform: translateX(-0px);
+    }
+    100%{
+        transform: translateX(-10px);
+    }
+}
+
+.iconsdiv{
+    position: relative;
+}
+.appointment-thumb  .img1{
+    width: 70px;height: 60px;
+    position: absolute;
+    right: 34%;
+    top: -300px;
+    border-radius: 0 !important;
+    animation: bouncing 0.8s alternate infinite ;   
+
+}
+@media (max-width:992px) {
+    .appointment-thumb  .img1{
+        width: 50px;
+        height: 40px;
+        top: -220px;
+        right: 34%;
+    }
+}
+.appointment-thumb .img-groub .img2{
+    width: 80px;height: 60px;
+    position: absolute;
+    right: 74%;
+    top: -300px;
+    border-radius: 0 !important;
+    animation: bouncing 0.8s alternate infinite ;   
+}
+@media (max-width:992px){
+    .appointment-thumb .img-groub .img2{
+        width: 50px;
+        height: 40px;
+        top: -220px;
+        right: 74%;
+    }
+}
+
+.appointment-thumb .img-groub .img3{
+    width: 50px;height: 50px;
+    position: absolute;
+    right: 83%;
+    top: -500px;
+    border-radius: 0 !important;
+    animation: bouncing 0.8s alternate infinite ;   
+
+}
+
+@media (max-width:992px){
+    .appointment-thumb .img-groub .img3{
+        width: 40px;
+        height: 40px;
+        top: -305px;
+    }
+}
+
+.appointment-thumb .img-groub .img4{
+    width: 90px;height: 45px;
+    position: absolute;
+    right: 3%;
+    top: -500px;
+    border-radius: 0 !important;
+    animation: bouncing 0.8s alternate infinite ;   
+} 
+@media (max-width:992px){
+    .appointment-thumb .img-groub .img4{
+        width: 60px;
+        height: 40px;
+        top: -300px;
+        right: 5%;
+
+    }
+}
+
+
+@keyframes bouncing {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-5px);
+    }
+}
+
+

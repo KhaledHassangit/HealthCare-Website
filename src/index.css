@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Tajawal', sans-serif;
+  background-color: #fff;
+  justify-content: center;
+  text-align: center;
+
+}
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+:root{
+  --main-color:#1f2278;
+  --orange-color:#f17732;
+  --btn-color:#565acf;
+
+}   
+
+
+section,footer ,header{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 25px 0;
+  margin-top: 50px;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+span{
+  display: block;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  list-style-type: none;
+}
+
+button{
+  text-align: center;
+  box-sizing: border-box;
+  height: 40px;
+  border-radius: 6px;
+}
+
+p{
+  line-height: 28px;
+}
+
+input{
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  text-align: left;
+  padding: 5px 15px;
+  color: #333;
+  font-size: 16px;
+  font-family: "Tajawal";
+}
+
+.bg{
+  background-image: url(./IMG//background.jpg);
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.bg2{
+  background-image: url(./IMG//background2.jpg);
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg3{
+  background-image: url(./IMG//newsbg.png);
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-heading{
+  color: #1f2278;
+    font-size: 75px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.breadcrumb-row {
+  background-color: #565acf;
+  border-radius: 10px;
+  box-shadow: 0 5px 30px 0 rgba(86,90,207,.3);
+  display: inline-block;
+  font-family: "Tajawal";
+  padding: 15px 40px;
+  color: #fff;
+  font-family: 700;
+  margin-bottom: 50px;
+}

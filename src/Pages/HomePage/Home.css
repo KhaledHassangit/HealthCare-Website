@@ -1,0 +1,142 @@
+.landing {
+    margin-top: 0;
+
+}
+
+.textdiv h5{
+    color: var(--btn-color);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 40px 0px 10px 0px;
+}
+
+.textdiv  h2{
+    color: var(--main-color);
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-top: 20px;
+    
+}
+
+.textdiv button {
+    background-color: var(--orange-color) !important;
+    border: 1px solid var(--orange-color) !important;
+    color: #fff;
+    padding: 12px 25px;
+    width: 170px;
+    height: 50px !important;
+    border-radius: 6px !important;
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 17px;
+    font-family: "Tajawal";
+    transition: 0.2s ease all;
+}
+
+.textdiv button:hover{
+    color: #fff;
+    opacity: 0.6;
+}
+.imgdiv{
+    max-width: 100%;
+    position: relative;
+    height: auto;
+}
+.imgdiv img {
+    max-width: 100%;
+    width: 450px;
+    height: auto;
+    margin-left: 120px;
+    animation: bouncing 1s alternate infinite ;   
+    transition: .3s ease all;
+}
+
+.landing .plus{
+    position: absolute;
+    bottom:-60%;
+    left: 80%;
+    
+}
+
+.landing .triangle{
+    position: absolute;
+    left: -14%;
+    top: 70%;
+    animation: Squre 1s alternate infinite ;
+}
+
+.landing .BlueDot{
+    position: absolute;
+    left: 10%;
+    top: -20%;
+}
+
+.landing .ZigZag{
+    position: absolute;
+    bottom:0;
+    left: 60%;
+    width: 20%;
+    animation: ZigZag 1s alternate infinite ;
+
+}
+
+header .squre{
+    width: 14%;
+    position: absolute;
+    left: -22%;
+    top: 3%;
+    animation: Squre 1s alternate infinite ;
+    /* transform: rotate(45deg) !important; */
+}
+
+@keyframes bouncing {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes Squre {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-10px);
+    } 
+}
+
+@keyframes ZigZag {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-10px);
+    } 
+}
+
+
+@media (max-width:578px){
+    .imgdiv img{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .landing{
+        text-align: center;
+    }
+
+}
+@media (min-width:992px){
+    .imgdiv img{
+        margin-left: 50px;
+    }
+}
+
+@media (min-width:773px){
+    .imgdiv img{
+        margin-left: 30px;
+    }
+}

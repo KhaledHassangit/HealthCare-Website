@@ -1,0 +1,152 @@
+.footer{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    margin: 70px auto;
+    margin-bottom: 0;
+}
+@media (max-width:767px) {
+    .footer{
+        padding-bottom: 150px;
+    }
+}
+.footer .logo{
+    width: 100%;
+    max-width: 70%;
+    margin-bottom: 20px;
+}
+
+
+.footer .infoContact p{
+    font-weight: 500;
+    font-size: 18px;
+    color: #444;
+    line-height: 28px;
+    margin-bottom: 30px;
+    font-family: "Tajawal";
+
+}
+
+
+.footer .infos .icon{
+    margin-right: 15px;
+}
+
+
+.footer .Numbers span{
+    color:var(--orange-color);
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.footer .Numbers .phonenumber{
+    color: #1f2278;
+    line-height: 1.3;
+    font-weight: bold;
+}
+
+.footer h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    color: #1f2278;
+    font-family: "Tajawal";
+    line-height: 1.3;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.footer .Links h3::after,
+.footer .Links2 h3::after,
+.footer .subscribe h3::after{
+    background-image: url("../../IMG//FooterLine.png");
+    background-repeat: no-repeat;
+    top: 40px;
+    content: "";
+    height: 7px;
+    left: 7px;
+    position: absolute;
+    width: 100px;
+}
+.footer .Links {
+    padding: 0 50px;
+}
+@media (max-width:767px) {
+    .footer .Links {
+        padding: 20px 0;
+    }
+}
+
+
+.footer  ul li{
+    margin-bottom: 5px;
+    font-family: "Tajawal";
+    color: #444;
+    font-size: 18px;
+    cursor: pointer;
+}
+.footer  ul li:hover{
+    color: var(--btn-color);
+}
+
+
+.footer .subscribe input{
+    border-radius: 10px;
+    box-shadow: 0 10px 60px 0 rgba(31,34,120,.1);
+    font-size: 15px;
+    font-weight: 500;
+    height: 52px;
+    margin-bottom: 20px;
+}
+@media (max-width:767px) {
+    .footer .subscribe input,
+    .footer .subscribe  button{
+        width: 100%;
+    }
+}
+
+.footer .subscribe input:focus{
+    outline: none;
+    border: 1px solid var(--btn-color);
+}
+
+.footer .subscribe  button{
+    background-color: var(--orange-color);
+    color: white;
+    padding: 20px 35px;
+    border: 2px solid transparent;
+    border-radius: 9px;
+    font-weight: 700;
+    transition: .5s ease all;
+    font-size: 14px;
+    font-weight: 500;
+    line-height:0.7;
+    padding: 15px 30px;
+    text-decoration: none;
+    transition: all .5s;
+    box-shadow: 0 5px 20px 0 rgba(241,119,50,.3)!important;
+    margin-bottom: 20px;
+}
+
+
+.copy-right hr{
+    color: var(--btn-color);
+    text-align: center;
+    margin: 15px auto;
+    width: 900px;
+}
+
+.copy-right div{
+    font-weight: 500;
+    font-size: 18px;
+    color: #444;
+    line-height: 28px;
+    font-family: "Tajawal";
+}
+.copy-right div span{
+    color: var(--orange-color);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+

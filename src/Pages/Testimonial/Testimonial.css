@@ -1,0 +1,173 @@
+.testimonials{
+    padding-top: 20px;padding-bottom: 20px;
+    margin: 30px auto;
+}
+
+.testimonials .heading h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--orange-color);
+    margin-bottom: 10px;
+}
+.testimonials .heading  h2{
+    color: #1f2278;
+    font-family: "Tajawal";
+    line-height: 1.2;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.testimonials .imgs .backgroundimg{
+    border-style: none;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    position: relative;
+    z-index: -2;
+}
+
+.testimonials .imgs {
+    position: relative;
+    display: inline-block;
+}
+
+.testimonials .imgs ul li  {
+    position: absolute;
+}
+.testimonials .imgs ul li img{
+    height: 100%;
+    object-fit: cover;
+    width: 100
+}
+
+.testimonials .imgs ul li:first-child{
+    left:193px !important;
+    top: 0 !important;
+}
+@media (max-width:767px){
+    .testimonials .imgs ul li:first-child{
+        left:175px !important;
+    }
+}
+@media (max-width:991px) {
+    .testimonials .imgs ul li:first-child{
+        left:150px !important;
+    }
+    .testimonials .imgs ul li:nth-child(3){
+        right: -10px !important;
+        top: 130px !important;
+    }
+    .testimonials .imgs ul li:nth-child(5) {
+        right: 45px !important;
+        top: 260px !important;
+    }
+    .testimonials .imgs ul li:nth-child(4) {
+        left: 28px !important;
+        top: 225px !important;
+    }
+    .testimonials .imgs ul li:nth-child(6) {
+        left: 38% !important;
+        top: 280px !important;
+    }
+    .testimonials .imgs ul li:nth-child(2){
+        left: -1px  !important;
+        top: 90px !important;
+    }
+    
+    
+        
+    
+    
+}
+
+.testimonials .imgs ul li:nth-child(2){
+    left:30px !important;
+    top: 100px !important;
+}
+
+.testimonials .imgs ul li:nth-child(3){
+    right: 30px !important;
+    top: 100px !important;
+}
+
+.testimonials .imgs ul li:nth-child(4){
+    left:35px !important;
+    top: 300px !important;
+}
+
+.testimonials .imgs ul li:nth-child(5){
+    right:35px !important;
+    top: 300px !important;
+}
+.testimonials .imgs ul li:nth-child(6){
+    left:43% !important;
+    top: 390px !important;
+}
+
+
+@media (max-width:576px) {
+    .testimonials .imgs ul li:nth-child(6){
+        top: 330px !important;
+        left:42% !important;
+
+    }
+}
+
+.testimonials .para{
+    background-color: #f17732;
+    border-radius: 40px 0 40px 40px;
+    box-shadow: 0 0 30px rgba(185,67,0,.1);
+    margin: 50px 20px 20px;
+    padding: 50px;
+    position: relative;
+}
+
+.testimonials .para p{
+    color: #fff;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+    line-height: 1.9;
+}
+.testimonials .para{
+    position: relative;
+}
+.testimonials .para span:first-of-type{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.testimonials .para span:nth-of-type(2){
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-transform: uppercase
+}
+
+.testimonials .para:after{
+    content: "";
+    background-image: url("../../IMG//Fasla.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 60px 0 rgba(31,34,120,.1);
+    color: #f17732;
+    font-size: 70px;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    width: 75px;
+    left: 45px;
+    top: -40px;
+    font-weight: bold;
+}
+
+

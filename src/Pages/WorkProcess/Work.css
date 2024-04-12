@@ -1,0 +1,115 @@
+.work {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 100px auto;
+}
+
+.work h4{
+    color: var(--orange-color);
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.work h1{
+    -webkit-text-stroke: 2px #f17732;
+    color: transparent;
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 80px;
+    margin-bottom: 30px;
+    text-shadow: 0 10px 0 #ffe3d3;
+    transition: all .5s;
+    z-index: 9
+}
+.holder h4{
+    text-align: left;
+    font-size: 25px;
+}
+.work p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 30px;
+    color: #777;
+}
+.work .holder{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 60px 0 rgba(31,34,120,.1);
+    overflow: hidden;
+    padding: 40px 30px;
+    position: relative;
+    transition: all .5s;
+    z-index: 10;
+    color: white;
+    height: auto;
+
+}
+
+.oranagy{
+    transform: translateY(-30px);
+}
+.oranagy{
+    background-color: #f17732 !important;
+}
+.oranagy h1, .oranagy p , .oranagy h4{
+    color: white;
+}
+.oranagy button{
+    color: #f17732 !important;
+}
+.work .holder::after{
+    background-color: #f17732;
+    content: "";
+    height: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform-origin: top;
+    -moz-transform-origin: top;
+    -ms-transform-origin: top;
+    -webkit-transform-origin: top;
+    -o-transform-origin: top;
+    transition: all .5s;
+    width: 100%;
+    z-index: -1
+}
+
+.work .holder:hover::after{
+    bottom: 0;
+    height: 100%;
+    top: auto;
+}
+
+.work button{
+    background-color: #e1e2f6;
+    border: 2px solid #e1e2f6;
+    color: #565acf;
+    border-radius: 8px;
+    border-width: 2px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: .9;
+    padding: 15px 30px;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.work .holder:hover{
+    background-color: #fff;
+    border-color: #fff;
+    color: #f17732;
+}
+.holder:hover h1 {
+    color: white !important;
+}
+.holder:hover h4 {
+    color: white !important;
+}
+.holder:hover p {
+    color: white !important;
+}
+.holder:hover button{
+    color: #f17732;
+}
