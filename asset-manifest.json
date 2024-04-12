@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/github.io/HealthCare-Website/static/css/main.3b1c524b.css",
+    "main.js": "/github.io/HealthCare-Website/static/js/main.fb5a5c5f.js",
+    "static/media/Doctor.png": "/github.io/HealthCare-Website/static/media/Doctor.7c2bc96d67d3eba1d64a.png",
+    "static/media/news.jpg": "/github.io/HealthCare-Website/static/media/news.67db6c474a828bd7a0cd.jpg",
+    "static/media/background2.jpg": "/github.io/HealthCare-Website/static/media/background2.815eb17ad747be75950d.jpg",
+    "static/media/news2.jpg": "/github.io/HealthCare-Website/static/media/news2.89b8315141d75bd31ced.jpg",
+    "static/media/news1.jpg": "/github.io/HealthCare-Website/static/media/news1.a3848a1189e2114e1b47.jpg",
+    "static/media/mobile.png": "/github.io/HealthCare-Website/static/media/mobile.f82d73222992d2101a09.png",
+    "static/media/pic1.jpg": "/github.io/HealthCare-Website/static/media/pic1.0593bc2fd8a13cf8c19f.jpg",
+    "static/media/pic2.jpg": "/github.io/HealthCare-Website/static/media/pic2.ad1ed7ee8284087fe9ee.jpg",
+    "static/media/pic3.jpg": "/github.io/HealthCare-Website/static/media/pic3.fa689b1037dbf69567a3.jpg",
+    "static/media/background.jpg": "/github.io/HealthCare-Website/static/media/background.c53c8971d16c9a1033ae.jpg",
+    "static/media/women.png": "/github.io/HealthCare-Website/static/media/women.eb5c49c523f7d6240d33.png",
+    "static/media/newsbg.png": "/github.io/HealthCare-Website/static/media/newsbg.cfded2fdf8e1798442e4.png",
+    "static/media/download4.jfif": "/github.io/HealthCare-Website/static/media/download4.3fce1e2ceaf3c448ca3c.jfif",
+    "static/media/download2.jfif": "/github.io/HealthCare-Website/static/media/download2.8bd8e7509714483fa6cf.jfif",
+    "static/media/download1.jfif": "/github.io/HealthCare-Website/static/media/download1.c1366f6acf2c1bc9ad53.jfif",
+    "static/media/download6.jfif": "/github.io/HealthCare-Website/static/media/download6.26a819e1e5d6e2e7be59.jfif",
+    "static/media/download3.jfif": "/github.io/HealthCare-Website/static/media/download3.ede18e16530df363bee6.jfif",
+    "static/media/download5.jfif": "/github.io/HealthCare-Website/static/media/download5.751364a8ae13d2be0958.jfif",
+    "static/media/slick.svg": "/github.io/HealthCare-Website/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/github.io/HealthCare-Website/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/github.io/HealthCare-Website/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/github.io/HealthCare-Website/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/github.io/HealthCare-Website/index.html",
+    "main.3b1c524b.css.map": "/github.io/HealthCare-Website/static/css/main.3b1c524b.css.map",
+    "main.fb5a5c5f.js.map": "/github.io/HealthCare-Website/static/js/main.fb5a5c5f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b1c524b.css",
+    "static/js/main.fb5a5c5f.js"
+  ]
+}
